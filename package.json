@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/RobGrimes8/colourProject#readme",
   "dependencies": {
+    "@jaames/iro": "^5.1.8",
     "ejs": "^3.1.3",
     "express": "^4.17.1"
   }

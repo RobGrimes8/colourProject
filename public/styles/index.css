@@ -1,12 +1,45 @@
-body {
-  background-color: orange;
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
 }
 
-.gradientShow {
-  margin-top: 40vh;
-  height: 25vh;
-  width: 25vh;
-  background: #020024;
+.converter {
+  background-color: orange;
+  height: 100vh;
+}
+
+.gradient {
+  height: 100vh;
+}
+.gradient h5 {
+  color: #bfbfbf;
+}
+.gradient label {
+  margin: 0;
+}
+.gradient ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.gradient li {
+  margin-right: 20px;
+  display: inline;
+}
+.gradient input {
+  margin: 10px auto;
+  border: none;
+  background: none;
+  width: 20vh;
+  height: 5vh;
+}
+.gradient .gradientShow {
+  height: 60vh;
+  width: 45vh;
+  border-radius: 10%;
   background: linear-gradient(#b36582, #f6b73c);
 }
 
