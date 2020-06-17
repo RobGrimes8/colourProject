@@ -1,27 +1,28 @@
 {
-  "name": "colourproject",
-  "version": "1.0.0",
-  "description": "Simple web app for colour related tasks (hex rgb conversion, gradient generator etc)",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RobGrimes8/colourProject.git"
-  },
-  "keywords": [
-    "Colour"
-  ],
-  "author": "Rob Grimes",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RobGrimes8/colourProject/issues"
-  },
-  "homepage": "https://github.com/RobGrimes8/colourProject#readme",
-  "dependencies": {
-    "@jaames/iro": "^5.1.8",
-    "ejs": "^3.1.3",
-    "express": "^4.17.1"
-  }
+    "name": "colourproject",
+    "version": "1.0.0",
+    "description": "Simple web app for colour related tasks (hex rgb conversion, gradient generator etc)",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RobGrimes8/colourProject.git"
+    },
+    "keywords": [
+        "Colour"
+    ],
+    "author": "Rob Grimes",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RobGrimes8/colourProject/issues"
+    },
+    "homepage": "https://github.com/RobGrimes8/colourProject#readme",
+    "dependencies": {
+        "@jaames/iro": "^5.1.8",
+        "ejs": "^3.1.3",
+        "express": "^4.17.1"
+    }
 }
