@@ -1,0 +1,11 @@
+body {
+    background-color: orange;
+}
+
+.gradientShow {
+    margin-top: 40vh;
+    height: 25vh;
+    width: 25vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(#b36582, #f6b73c);
+}

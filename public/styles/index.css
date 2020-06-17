@@ -1,0 +1,13 @@
+body {
+  background-color: orange;
+}
+
+.gradientShow {
+  margin-top: 40vh;
+  height: 25vh;
+  width: 25vh;
+  background: #020024;
+  background: linear-gradient(#b36582, #f6b73c);
+}
+
+/*# sourceMappingURL=index.css.map */
