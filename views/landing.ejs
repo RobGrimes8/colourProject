@@ -3,7 +3,7 @@
 
     <div class="row">
         <div class="col-6 gradient">
-            <div class="container mt-5">
+            <div class="container">
                 <h1>Colour Gradient Generator</h1>
                 <h5>Click the gradient to copy the css!</h5>
                 <ul>
@@ -26,23 +26,59 @@
             </div>
         </div>
         <div class="col-6 converter">
-            <div class="container">
+            <div class="container halfC mt-4">
+                <h1>HEX to RGB Converter</h1>
                 <div class="row justify-content-center">
-                    <div class="col-4">
+                    <div class="col-6">
                         <form>
                             <div class="form-container">
                                 <div class="form-group">
                                     <label for="hexColor">HEX</label>
-                                    <input type="text" class="form-control" id="hexColor" aria-describedby="hexHelp">
-                                </div>
-                                <div class="form-group">
-                                    <label for="rgbColor">RGB</label>
-                                    <input type="text" class="form-control" id="rgbColor" aria-describedby="rgbHelp">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">#</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="hexColor" aria-describedby="hexHelp">
+                                    </div>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
+                <h3 class="rgbResult"></h3>
+                <div class="rgbHexShow mx-auto" id="hexToRgbShow"></div>
+            </div>
+            <div class="container halfC mt-4">
+                <h1>RGB to HEX Converter</h1>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <form>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">r</span>
+                                </div>
+                                <input type="text" class="form-control rgbGroup" id="rgbColor1" aria-describedby="hexHelp" value="0">
+                            </div>
+
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">g</span>
+                                </div>
+                                <input type="text" class="form-control rgbGroup" id="rgbColor2" aria-describedby="hexHelp" value="0">
+                            </div>
+
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">b</span>
+                                </div>
+                                <input type="text" class="form-control rgbGroup" id="rgbColor3" aria-describedby="hexHelp" value="0">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <h3 class="hexResult">#000000</h3>
+                <div class="rgbHexShow mx-auto" id="rgbToHexShow"></div>
             </div>
         </div>
     </div>

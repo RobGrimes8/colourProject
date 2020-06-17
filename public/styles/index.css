@@ -1,3 +1,7 @@
+body {
+  height: 100%;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -8,6 +12,19 @@
 .converter {
   background-color: orange;
   height: 100vh;
+}
+.converter .input-group {
+  margin: 5px 0;
+}
+.converter span {
+  width: 40px;
+  text-align: center;
+}
+.converter .rgbHexShow {
+  width: 45vh;
+  height: 15vh;
+  border-radius: 10%;
+  background-color: white;
 }
 
 .gradient {
