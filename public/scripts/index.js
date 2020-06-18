@@ -1,7 +1,6 @@
 var topColor;
 var bottomColor;
 
-
 window.onload = function() {
     topColor = getRandomColor();
     bottomColor = getRandomColor();
